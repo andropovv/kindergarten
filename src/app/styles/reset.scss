@@ -1,0 +1,25 @@
+*, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}

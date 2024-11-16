@@ -1,0 +1,22 @@
+@mixin page-wrapper {
+  margin-bottom: 20px;
+  max-width: 1020px;
+  width: 100%;
+  background: var(--bg-second);
+  border-radius: 5px ;
+  box-shadow: 2px 2px 4px rgba(173, 173, 173, 0.5);
+}
+
+@mixin page-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  margin: 0 auto;
+
+  h2 {
+    align-self: start;
+  }
+}

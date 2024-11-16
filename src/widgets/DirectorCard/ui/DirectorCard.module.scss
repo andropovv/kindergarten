@@ -1,0 +1,48 @@
+.directorInf {
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  background: var(--bg-main);
+  box-shadow: 2px 2px 4px rgba(173, 173, 173, 0.5);
+
+  .directorInfContainer {
+    width: 80%;
+    padding: 20px 0;
+    display: flex;
+    gap: 30px;
+  }
+  .directorInfPhoto {
+    width: 30%;
+    img {
+      height: 35vh;
+      width: auto;
+      border-radius: 4px;
+      object-fit: cover;
+      margin: 0;
+    }
+
+  }
+
+  .directorInfText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    button {
+      align-self: center;
+      padding: 8px 12px;
+      justify-self: end;
+    }
+  }
+
+  h3 {
+    color: var(--accent-main);
+    font: var(--font-l);
+    margin-bottom: 10px;
+  }
+  p {
+    text-indent: 20px;
+    text-align: justify;
+  }
+}

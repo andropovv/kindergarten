@@ -1,0 +1,22 @@
+.Button {
+  cursor: pointer;
+}
+
+.clear {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.default {
+  background: var(--accent-main);
+  color: var(--text-main-inv);
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+
+  &:hover {
+    opacity: 0.8;
+    color: var(--text-second-inv);
+  }
+}

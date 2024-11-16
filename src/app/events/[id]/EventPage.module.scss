@@ -1,0 +1,6 @@
+@use 'app/styles/mixins.scss';
+
+.EventPage {
+  @include mixins.page-container;
+
+}
