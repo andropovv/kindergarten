@@ -26,18 +26,12 @@ export default function Home() {
         </p>
         <div style={{width: '80%', height: 'auto'}}>
           <ImageSlider>
-            <Image src='/assets/images/placeholder.jpg' alt={''} width={0}
-                   height={0}
-                   sizes="100vw"
-                   style={{width: '100%', height: 'auto', objectFit: 'cover'}}/>
-            <Image src='/assets/images/placeholder.jpg' alt={''} width={0}
-                   height={0}
-                   sizes="100vw"
-                   style={{width: '100%', height: 'auto', objectFit: 'cover'}}/>
-            <Image src='/assets/images/placeholder.jpg' alt={''} width={0}
-                   height={0}
-                   sizes="100vw"
-                   style={{width: '100%', height: 'auto', objectFit: 'cover'}}/>
+            <Image src='/assets/images/placeholder.jpg' alt={''} width={1000}
+                   height={1000}/>
+            <Image src='/assets/images/placeholder.jpg' alt={''} width={1000}
+                   height={1000}/>
+            <Image src='/assets/images/placeholder.jpg' alt={''} width={1000}
+                   height={1000}/>
 
           </ImageSlider>
         </div>

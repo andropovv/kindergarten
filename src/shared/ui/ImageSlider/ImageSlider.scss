@@ -1,5 +1,6 @@
 .container__slider {
   position: relative;
+  max-height: 500px;
   width: 100%;
   padding: 0;
   overflow: hidden;
@@ -64,15 +65,18 @@
   box-sizing: border-box;
   min-width: 100%;
   overflow: hidden;
-  object-fit: cover;
+  object-fit: fill;
   height: 100%;
   transform: translateX(0);
   transition: transform 1s ease;
+  display: flex;
 }
 
 
 
 .slider__item img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  margin: auto;
 }

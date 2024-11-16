@@ -1,6 +1,5 @@
 'use client'
 import {FC, ReactNode, useEffect, useRef, useState} from "react";
-
 import "./ImageSlider.scss";
 
 interface CarouselProps {

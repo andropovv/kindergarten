@@ -12,12 +12,11 @@
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
-    "react-photo-collage": "^1.0.9",
     "sass": "^1.80.6"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/react": "^16.14.6",
     "@types/react-dom": "^18",
     "typescript": "^5"
   }
